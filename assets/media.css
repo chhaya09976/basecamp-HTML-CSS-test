@@ -1,0 +1,337 @@
+
+@media only screen and (min-width:412px){
+.hamburger{
+    top: 22px;
+    left: 9px;
+}
+}
+@media only screen and (min-width: 712px){
+    h1{
+        font-size: 56px;
+        color:var(--white-color);
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 46px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .mb-hide{
+        display: block;
+    }
+    .desk-hide{
+        display: none;
+    }
+    .text-right{
+        text-align: right;
+    }
+    .row{
+        display:flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    .col{
+        flex:1
+    }
+    .section-margin{
+        margin-block: 80px;
+    }
+    .policies{
+        padding-top: 20px;
+    }
+/* nav */
+   nav{
+     padding-block: 15px;
+   }
+   .search-container {
+    justify-content: flex-start; 
+    width: 100%;
+    max-width: 301px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid #E4E4E4;
+   border-radius: 100px;
+   margin-block: 13px;
+}
+.search-input {
+    display: block;
+    flex-grow: 1;
+    font-size: 11px;
+    padding: 0 13px;
+    font-size: 400;
+    border: none;
+    border-radius: 25px;
+}
+.search-container:hover {
+    border-color: #888;
+}
+.fa-search{
+    padding-right: 13px;
+}
+
+    .menu {
+        list-style: none;
+        text-align: center;
+    }
+    
+    .menu-item {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .category {
+        color: var(--black);
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .category:hover {
+        background-color: var(--border-color);
+    }
+    
+    .mega-menu {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 800px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    
+    .mega-menu-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .mega-menu-content .row ul {
+        list-style: none;
+    }
+    
+    .mega-menu-content .row li {
+        padding: 5px 0;
+    }
+    
+    .mega-menu-content .row li a {
+        /* color: var(--black); */
+        text-decoration: none;
+    }
+    
+    .mega-menu-content .row li a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Show mega menu on hover */
+    .menu-item:hover .mega-menu {
+        display: block;
+    }
+    /* header */
+    .announcement-bar{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .announcement span{
+        padding: 0 15px;
+        color: var(--white-color);
+    }
+    .announcement a{
+    font-size: 12px;
+    }
+    .announcement  p{
+        padding-block: 10px;
+    }
+    .mini-menu{
+        position: relative;
+    }
+    .mini-menu a {
+        color: var(--white-color);
+    }
+    .mini-menu:hover{
+        color: var(--border-color);
+    }
+    
+    .menu-items a{
+        color: var(--black);
+    }
+    .menu-items{
+        background-color: var(--white-color);
+        padding: 14px;
+        display: none;
+        position: absolute;
+        top: 27px;
+        right: -1rem;
+        border-radius: 4px;
+    }
+    .mini-menu:hover  .menu-items{
+        display: var(--blue-color);
+    }
+    
+    .btn a{
+        color: var(--white-color);
+    }
+    .dk-hero{
+        background-image: url('../images/actwear-desktop-image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: block;
+        height: auto;
+        color: var(--White-color);
+        margin-top: 15px;
+    }
+    .hero-content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 218px;
+        padding-top: 231px ;
+    }
+    .dual-hero-content{
+        margin-bottom: 80px;
+    }
+    .btn{
+     margin-top: 30px;
+  
+    }
+    .dk-hero p{
+        color: var(--white-color);
+        font-size: 13px;
+    }
+    .text-link{
+        padding: 0 78px;
+        margin: 22px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .angle{
+        display: flex;
+        gap: 7px;
+        align-self: center;
+        justify-content: end;
+       
+    }
+    .angle::before{
+        content: '\003C';
+        color: var(--black);
+    }
+    .angle::after{
+        content: '\003E';
+        color: var(--black);
+    }
+    .image-banner{
+        flex-direction: row;
+        /* padding: 0 60px; */
+    }
+    .banner p{
+    bottom: 74px;
+    right: 0;
+    padding: 0 102px;
+    }
+    .primary-btn:hover{
+        background-color: var(--white-color);
+        color: var(--blue-color);
+    }
+    /* two layout section */
+    
+.heading-text{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 127px;
+    padding-bottom: 60px;
+}
+.heading-text h2{
+    width: 30%;
+}
+.two-column{
+    flex-direction: row;
+    gap: 80px;
+}
+.multi-image{
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+.column-text{
+    gap: 40px;
+   
+        
+}
+.slider-rotate{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 60px;
+}
+
+    /* card section */
+    .card{
+        padding-bottom: 60px;
+    }
+    /* footer section */
+   .footer{
+    flex-direction: row;
+   }
+.footer-navigation-colm-1{
+    flex-direction: row;
+}
+.footer-details{
+    flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+        padding: 0 20px;
+        border-bottom: 1px solid var(--white-color);
+}
+.about{
+    display: flex;
+     gap: 100px;
+     flex-direction: row;
+     /* justify-content: center; */
+     padding: 0 20px;
+    
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .title li a{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .head{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .policies{
+        font-size: 10px;
+        font-weight: 400;
+        padding-block: 19px;
+    }
+    
+.hide-desktop{
+    display: none;
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 88px;
+}
+.navbar{
+    display: block;
+}
+}
