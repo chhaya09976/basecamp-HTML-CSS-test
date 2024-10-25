@@ -286,8 +286,8 @@ nav{
 .hamburger{
 color: var(--black);
 position: absolute;
-top: 29px;
-left: 3px;
+ top: 8%;
+left: 2%;
 }
 .hamburger:hover + .navbar {
     display: block;
